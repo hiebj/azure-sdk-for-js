@@ -7435,18 +7435,6 @@ packages:
       append-transform: 2.0.0
     dev: false
 
-  /istanbul-lib-instrument@4.0.3:
-    resolution: {integrity: sha512-BXgQl9kf4WTCPCCpmFGoJkz/+uhvm7h7PFKUYxh7qarQd3ER33vHG//qaE8eN25l07YqZPpHXU9I09l/RD5aGQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@babel/core': 7.24.7
-      '@istanbuljs/schema': 0.1.3
-      istanbul-lib-coverage: 3.2.2
-      semver: 6.3.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /istanbul-lib-instrument@5.2.1:
     resolution: {integrity: sha512-pzqtp31nLv/XFOzXGuvhCb8qhjmTVo5vjVk19XE4CRlSWz0KoeJ3bw9XsA7nOp9YBf4qHjwBxkDzKcME/J29Yg==}
     engines: {node: '>=8'}
@@ -8575,9 +8563,9 @@ packages:
       path-key: 4.0.0
     dev: false
 
-  /nyc@15.1.0:
-    resolution: {integrity: sha512-jMW04n9SxKdKi1ZMGhvUTHBN0EICCRkHemEoE5jm6mTYcqcdas0ATzgUgejlQUHMvpnOZqGB5Xxsv9KxJW1j8A==}
-    engines: {node: '>=8.9'}
+  /nyc@17.0.0:
+    resolution: {integrity: sha512-ISp44nqNCaPugLLGGfknzQwSwt10SSS5IMoPR7GLoMAyS18Iw5js8U7ga2VF9lYuMZ42gOHr3UddZw4WZltxKg==}
+    engines: {node: '>=18'}
     hasBin: true
     dependencies:
       '@istanbuljs/load-nyc-config': 1.1.0
@@ -8592,7 +8580,7 @@ packages:
       glob: 7.2.3
       istanbul-lib-coverage: 3.2.2
       istanbul-lib-hook: 3.0.0
-      istanbul-lib-instrument: 4.0.3
+      istanbul-lib-instrument: 6.0.2
       istanbul-lib-processinfo: 2.0.3
       istanbul-lib-report: 3.0.1
       istanbul-lib-source-maps: 4.0.1
@@ -11404,7 +11392,7 @@ packages:
     dev: false
 
   file:projects/agrifood-farming.tgz:
-    resolution: {integrity: sha512-HZSx6lhjPi5qHvHdGJccgLOkO81zZ1uPpbrb/XHkIDJYEgZKztojGreO4E/YfNCWywHBz9HcH2VwcnXG5Dd3kw==, tarball: file:projects/agrifood-farming.tgz}
+    resolution: {integrity: sha512-vdEzHXARspo736bCJV0YpffqDMEeQu2Zcn4um4u4S7qqxMzL6vuV/AFKDYvjFNmKaZI4zNjqq57R7ldzdmMNqQ==, tarball: file:projects/agrifood-farming.tgz}
     name: '@rush-temp/agrifood-farming'
     version: 0.0.0
     dependencies:
@@ -11435,7 +11423,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -11451,7 +11439,7 @@ packages:
     dev: false
 
   file:projects/ai-anomaly-detector.tgz:
-    resolution: {integrity: sha512-iCAJGraXxuPI6HnvhvqvAEsc6J/bDEv5oJf79EEH+aEgVxoX7j8l2utPd3HZUQcS0fy6PvZS0SoKxaV8o6kleQ==, tarball: file:projects/ai-anomaly-detector.tgz}
+    resolution: {integrity: sha512-CaCEbPcdeDdqfGjmTV4idYeLxEOnNUw0CBBIOPBA0APHRQUAbxDZt5GbCfHT7Q1gCR55Qq9zmU8Aze5PAzJvAA==, tarball: file:projects/ai-anomaly-detector.tgz}
     name: '@rush-temp/ai-anomaly-detector'
     version: 0.0.0
     dependencies:
@@ -11482,7 +11470,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -11498,7 +11486,7 @@ packages:
     dev: false
 
   file:projects/ai-content-safety.tgz:
-    resolution: {integrity: sha512-TMcjYfnMtjYkygH9JvMeRQ6/0tushS9oAbPiK8HQXvgfqAdEHfIX14eABYavFiBPOUiuodNriCrXF3OsnHroaQ==, tarball: file:projects/ai-content-safety.tgz}
+    resolution: {integrity: sha512-VIRO1FQIQCMPH07TgyBKFnip6G7FyXV1JeNawdZoMBtauSvHF6fm5/2z5uM9y51DKmmw/fXJTS+Mb/pAV3zt0g==, tarball: file:projects/ai-content-safety.tgz}
     name: '@rush-temp/ai-content-safety'
     version: 0.0.0
     dependencies:
@@ -11527,7 +11515,7 @@ packages:
       karma-sourcemap-loader: 0.4.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -11543,7 +11531,7 @@ packages:
     dev: false
 
   file:projects/ai-document-intelligence.tgz:
-    resolution: {integrity: sha512-F0qhC9gs36W1qaV+CqxLt36IB8nHJlEzUNxix/VzmLKtD8V3mniIkpshChzYiebnJNjbxpwGTq+xt/bouutU6Q==, tarball: file:projects/ai-document-intelligence.tgz}
+    resolution: {integrity: sha512-eab1EXni8Qsj5krdaKC9UVjCm7JFq1dKLYvvlI/R6uquih8TKCarIN2+NGXRFs64495e1sZ4i72CcQSrTbT6pA==, tarball: file:projects/ai-document-intelligence.tgz}
     name: '@rush-temp/ai-document-intelligence'
     version: 0.0.0
     dependencies:
@@ -11574,7 +11562,7 @@ packages:
       karma-sourcemap-loader: 0.4.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -11590,7 +11578,7 @@ packages:
     dev: false
 
   file:projects/ai-document-translator.tgz:
-    resolution: {integrity: sha512-Vf7Fo170U5+VKVsZlQB7o8PSsjaoROE5O1knRdMAx6HvIvBT8J8DLMk2MLcxLbLn/u4SNu6DdB21AwyIVf6Nog==, tarball: file:projects/ai-document-translator.tgz}
+    resolution: {integrity: sha512-7ZmvGlLfXP/t4imk1yaiQ3S7AtZ6jxEem44bRMQ60rEyio/ofkFTylKWj4a/YQylqtS3ccVJI41MzDWa0adLUA==, tarball: file:projects/ai-document-translator.tgz}
     name: '@rush-temp/ai-document-translator'
     version: 0.0.0
     dependencies:
@@ -11619,7 +11607,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -11635,7 +11623,7 @@ packages:
     dev: false
 
   file:projects/ai-form-recognizer.tgz:
-    resolution: {integrity: sha512-8YLmzSpFghgvblc3nHGSAkb1t99w6YFPK5LwycwDzoXSbm8v34TaMe//RC/A73OjaLJt6peCDSsXkVU/KcJddA==, tarball: file:projects/ai-form-recognizer.tgz}
+    resolution: {integrity: sha512-1rCwgohbJ45UGOCBSjtyK9+KxOWau0zwv6tZLMOZtQ+px+BD5sEej25tmQV6x6iC5pHaLv1+SGh2+Ygbz7Hg1g==, tarball: file:projects/ai-form-recognizer.tgz}
     name: '@rush-temp/ai-form-recognizer'
     version: 0.0.0
     dependencies:
@@ -11666,7 +11654,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       magic-string: 0.30.10
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       prettier: 3.3.2
       rimraf: 5.0.7
       rollup: 4.18.0
@@ -11684,7 +11672,7 @@ packages:
     dev: false
 
   file:projects/ai-language-conversations.tgz:
-    resolution: {integrity: sha512-y38041Ljdkb8VoAZ0hkf5qCrl6nTVeoQogPMipCxamrWXrj1aYBGgyVmuefZvI/P17kXE9I81zqrrrawYnGm4Q==, tarball: file:projects/ai-language-conversations.tgz}
+    resolution: {integrity: sha512-9a9FzQbBoez6DaYJpK8TsRp/Tu3sSTxvfnqe2kTPYirGunel7cd6fwoxCNP8cOY05am4fo9EYMwu0Vj7FC7FAw==, tarball: file:projects/ai-language-conversations.tgz}
     name: '@rush-temp/ai-language-conversations'
     version: 0.0.0
     dependencies:
@@ -11716,7 +11704,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -11734,7 +11722,7 @@ packages:
     dev: false
 
   file:projects/ai-language-text.tgz:
-    resolution: {integrity: sha512-7zv3rRRUHFfLrZRY8LmrzM26L25KT/cxShglIUTxRvwcaMWKhN9GlEI1tHBGEe4tKuZqJRWyJRB8QDRfI2GkHA==, tarball: file:projects/ai-language-text.tgz}
+    resolution: {integrity: sha512-UiiJSj7DhZdx2Ia1+OXhpsOoW8j4CwcWcnMFEGEguTsczhg9K2PrGzUS6uMNGkvreayoCPSIJJiGv9CONQm9kw==, tarball: file:projects/ai-language-text.tgz}
     name: '@rush-temp/ai-language-text'
     version: 0.0.0
     dependencies:
@@ -11767,7 +11755,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -11784,7 +11772,7 @@ packages:
     dev: false
 
   file:projects/ai-language-textauthoring.tgz:
-    resolution: {integrity: sha512-6nr5OO05e+OLV++CpNwQeJiDe117qAcNaLsW6+TUEB5JlgfPV7GQjflepC9nW0UP7bM/Usjxe/1D5/uqJQA9Vg==, tarball: file:projects/ai-language-textauthoring.tgz}
+    resolution: {integrity: sha512-puPA6GiM2osNw26LdRfpsoAedck+1Xmlq7aspqpaf/MhxfN6tWOaojzB24Tbouwne29DWP4s2imr1AS54G6pYg==, tarball: file:projects/ai-language-textauthoring.tgz}
     name: '@rush-temp/ai-language-textauthoring'
     version: 0.0.0
     dependencies:
@@ -11798,7 +11786,7 @@ packages:
       eslint: 8.57.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -11811,7 +11799,7 @@ packages:
     dev: false
 
   file:projects/ai-metrics-advisor.tgz:
-    resolution: {integrity: sha512-eGjg+bP9U9y4AsSuJTTQJXr1k2csDmjD/6ZZnySt0KkrjJheCO4xh22geeSvkuEJBHyodoDy8YDN+LhOuggx7w==, tarball: file:projects/ai-metrics-advisor.tgz}
+    resolution: {integrity: sha512-eZtKEilRhMQXioZr0lxKWqw3ZWwmaHsuUNLKnaevFRUdqBBJuY9dPMNV4TewC/TyIFqo5C4xCvYjQV/5FGQStw==, tarball: file:projects/ai-metrics-advisor.tgz}
     name: '@rush-temp/ai-metrics-advisor'
     version: 0.0.0
     dependencies:
@@ -11839,7 +11827,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -11856,7 +11844,7 @@ packages:
     dev: false
 
   file:projects/ai-text-analytics.tgz:
-    resolution: {integrity: sha512-aisDCcckty5/Qw10RuHTrbDf8kf0WgTR1WcAgQ9REcu9h8Gmm3YHaom0CYHiFmIz1zk4RTII4RUQcthYbFM5pg==, tarball: file:projects/ai-text-analytics.tgz}
+    resolution: {integrity: sha512-MrdZeKTp+dY+gNWEjWGqYmHznuNUaj4iHj50pP3ZDwC8E1/Q6PvQX4kmAag5vqQC8CcdNU8CUASfg9ud4UzhzA==, tarball: file:projects/ai-text-analytics.tgz}
     name: '@rush-temp/ai-text-analytics'
     version: 0.0.0
     dependencies:
@@ -11887,7 +11875,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -11904,7 +11892,7 @@ packages:
     dev: false
 
   file:projects/ai-translation-text.tgz:
-    resolution: {integrity: sha512-TwO9ZrOIhwXstbhTsU9mTvzm6Cr7Gaa+HDt/4CkUsyRXyltW97WSQ0czdMoZS3+icSErRJYRprBS2IyO04KoZA==, tarball: file:projects/ai-translation-text.tgz}
+    resolution: {integrity: sha512-cg2D/NafhUfsAfA2AvovI7F7g+32tm3gx7Jw0iYVT17eeXZVYLC6JKEQSDb0r94bzqeSx8iieQ04XVu8IZYN3w==, tarball: file:projects/ai-translation-text.tgz}
     name: '@rush-temp/ai-translation-text'
     version: 0.0.0
     dependencies:
@@ -11933,7 +11921,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -11987,7 +11975,7 @@ packages:
     dev: false
 
   file:projects/ai-vision-image-analysis.tgz:
-    resolution: {integrity: sha512-XoJviqs0EVB+5vHHC8cukN0rC+ze+fdGdhtyfyR949LXDZa/9npCnpu1cuZFaPoSK0eu+vYxOJi/kZA3Ar6Tag==, tarball: file:projects/ai-vision-image-analysis.tgz}
+    resolution: {integrity: sha512-Ea4szpfkK9qYLeZGQ9uMbm11a2bmiNdErEzWSm7GuNsYR+CHZB/R/rZ51Ck5DiH6T0PuywAReB1bX3CBM2dtWQ==, tarball: file:projects/ai-vision-image-analysis.tgz}
     name: '@rush-temp/ai-vision-image-analysis'
     version: 0.0.0
     dependencies:
@@ -12016,7 +12004,7 @@ packages:
       karma-sourcemap-loader: 0.4.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@20.10.8)(typescript@5.4.5)
@@ -12110,7 +12098,7 @@ packages:
     dev: false
 
   file:projects/app-configuration.tgz:
-    resolution: {integrity: sha512-xS3GFMp6rhn0j3PLEFnWq5O0vL8ANSw5a3DM5JT3jdITPTBd2iJC/9Ntyh9aj74yMz13rGal+w17Px+qOKhaxA==, tarball: file:projects/app-configuration.tgz}
+    resolution: {integrity: sha512-g6GjER93VrWzsLZIxIjIXrrg8ppmf+buKIild5OWNBgDGQQDuU4K6OSMulw3/Lr2rtmTgNqkbrAFTXapwDPiFA==, tarball: file:projects/app-configuration.tgz}
     name: '@rush-temp/app-configuration'
     version: 0.0.0
     dependencies:
@@ -12138,7 +12126,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
       nock: 13.5.4
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       tslib: 2.6.3
@@ -12504,7 +12492,7 @@ packages:
     dev: false
 
   file:projects/arm-appservice.tgz:
-    resolution: {integrity: sha512-TZ+pwPsX4jXB9tKeA/BvuZ5VLmc9U5zyHyMwzJKzvqkwfOX9hRW3UvW4k3kVftlX2Rqrn4fFQwVZiZjfXMOfIg==, tarball: file:projects/arm-appservice.tgz}
+    resolution: {integrity: sha512-fUKtVwrk+VOTQw9+ggTYNFcssIhuX0tr3+JP5l+R4S500X9ChHLDJp8CUfHEXSbuc6uPC1A9Zyq/KGLFVK3/lQ==, tarball: file:projects/arm-appservice.tgz}
     name: '@rush-temp/arm-appservice'
     version: 0.0.0
     dependencies:
@@ -12534,7 +12522,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -13305,7 +13293,7 @@ packages:
     dev: false
 
   file:projects/arm-compute.tgz:
-    resolution: {integrity: sha512-ayS77Ztox2i7yCBld3HpfQ/618UH6P2ImLR3rDlI3t5O0hxfxTWMhXl3CnJ33znD7o2aiFof/z5kc30RCkGTpw==, tarball: file:projects/arm-compute.tgz}
+    resolution: {integrity: sha512-pXeTTg6lu5tWFkw/mzYcY46q6gbP8d7F/53qaI6AO7O6++YiYktiwbvyTrZFazQ5yROOa6cn7/GLqENX3SsyMA==, tarball: file:projects/arm-compute.tgz}
     name: '@rush-temp/arm-compute'
     version: 0.0.0
     dependencies:
@@ -13336,7 +13324,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -13562,7 +13550,7 @@ packages:
     dev: false
 
   file:projects/arm-containerservice.tgz:
-    resolution: {integrity: sha512-CugJuth+DWxuFenbrg5aYFGuYp6oWV6OTjXdGeoj1lPTCMJUO5iXcrzxG6gLeYDiPNC2YGMaLICTMmjcQH0v7w==, tarball: file:projects/arm-containerservice.tgz}
+    resolution: {integrity: sha512-iKzor2LPLNM/okVJ1QWMEUaZclR4FN8SEIRqA2JHS9KhpeSV1BD4LTpTHLN+GAxFz+JLrWgti/CXFpI0YM/7Fw==, tarball: file:projects/arm-containerservice.tgz}
     name: '@rush-temp/arm-containerservice'
     version: 0.0.0
     dependencies:
@@ -13592,7 +13580,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -16468,7 +16456,7 @@ packages:
     dev: false
 
   file:projects/arm-network.tgz:
-    resolution: {integrity: sha512-X0RkQ24Ptrta1BE/uUqf3sEwwzvi4tU4VZjhaDbQ1lXo3btD3QIFZ74D/yYGLoThzYqfVoMHJ0UFalKK9O+6dg==, tarball: file:projects/arm-network.tgz}
+    resolution: {integrity: sha512-j7L3dBnzeIOWYB0y2Gg7+KgtPzO5XQ7f3dTket5xPIP1GBYS+26EU3sIeSlMRoVFGeIBguSEQLV96x711JCS3w==, tarball: file:projects/arm-network.tgz}
     name: '@rush-temp/arm-network'
     version: 0.0.0
     dependencies:
@@ -16498,7 +16486,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -18056,7 +18044,7 @@ packages:
     dev: false
 
   file:projects/arm-servicefabric.tgz:
-    resolution: {integrity: sha512-lA0pdrClcfkUG2PO0mTlNzs7nK/5hoIldDE4iV9eIQoBa93vKvEXYJ0JhNjQ2xHAA/KGkE6qvgDuxjWPSKrF5Q==, tarball: file:projects/arm-servicefabric.tgz}
+    resolution: {integrity: sha512-hdV2cmvzuQmoPjkrcbYDBbt3a92wm0f4DH2PUgDE5hLRTOCjI7YiBCw+JMxKCAw6RBZy0bWi8DnuGFwvGWinog==, tarball: file:projects/arm-servicefabric.tgz}
     name: '@rush-temp/arm-servicefabric'
     version: 0.0.0
     dependencies:
@@ -18086,7 +18074,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19133,7 +19121,7 @@ packages:
     dev: false
 
   file:projects/attestation.tgz:
-    resolution: {integrity: sha512-Rhw6hDb4VTtUNH6gZ8DtOzx5h0Xc6GP8GHU6/Gn5uEqfZhO1gYO9oET6HblY+38a8xiinKx3jJrV9HFfj67kOw==, tarball: file:projects/attestation.tgz}
+    resolution: {integrity: sha512-KSXCA3Qig/ZMOfpLhsYBtEULLqfPn3uCb02mwDopklqsfi9WDtK7pb+zkNHESf2OH8v9I49FCz6Yhk+aCYEolQ==, tarball: file:projects/attestation.tgz}
     name: '@rush-temp/attestation'
     version: 0.0.0
     dependencies:
@@ -19166,7 +19154,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       safe-buffer: 5.2.1
       source-map-support: 0.5.21
@@ -19184,7 +19172,7 @@ packages:
     dev: false
 
   file:projects/communication-alpha-ids.tgz:
-    resolution: {integrity: sha512-ZnA1LD8oAtWgDUs3UwmgGfhJUulvZgVq9PtuO4oZc6qp+uW3dMqruFXTyfjcoXTJzcC3gM+yjHW5phc98jqBdg==, tarball: file:projects/communication-alpha-ids.tgz}
+    resolution: {integrity: sha512-tknSWY6PMmTuwMNElaukPV4Agr7oIWgoBptmGAEeLhTqNCQosTQvs3lnp29rzgj3jXJ1oBK1xxWvsGZASpWhAg==, tarball: file:projects/communication-alpha-ids.tgz}
     name: '@rush-temp/communication-alpha-ids'
     version: 0.0.0
     dependencies:
@@ -19212,7 +19200,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19228,7 +19216,7 @@ packages:
     dev: false
 
   file:projects/communication-call-automation.tgz:
-    resolution: {integrity: sha512-N1TW9xs7zjhhmXOxnBlFrFJJCwm6Ee64UfhhZBhODbuH3hv/4uc+yb5t8QnaQZ0TJKsR2ai7D3rDOGvCVaQapw==, tarball: file:projects/communication-call-automation.tgz}
+    resolution: {integrity: sha512-C3SlM9SjrFnFa6xCwMGkhgxkq4oPzFIxoNJo0trd3fapgRAUDlj9tGvLsFn2lMPfEiYXigMWVPsmk13l9A0nWw==, tarball: file:projects/communication-call-automation.tgz}
     name: '@rush-temp/communication-call-automation'
     version: 0.0.0
     dependencies:
@@ -19258,7 +19246,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19275,7 +19263,7 @@ packages:
     dev: false
 
   file:projects/communication-chat.tgz:
-    resolution: {integrity: sha512-LsbGjr9EW8VTWF/5INwJsD2jzswejO0PtWkeP9T3VW/gU7HjW6IrwSw0pvEeJJqgSAES/He5SJVkvmUrZRCpww==, tarball: file:projects/communication-chat.tgz}
+    resolution: {integrity: sha512-cBCxhZ5U1f/ySvsDmRQCeY2uh4vES3cllRTxHLRJAq/vmRvMkn79iq2999d0NuTIRqdpO9dRmtBffAgeeswzhA==, tarball: file:projects/communication-chat.tgz}
     name: '@rush-temp/communication-chat'
     version: 0.0.0
     dependencies:
@@ -19307,7 +19295,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19326,7 +19314,7 @@ packages:
     dev: false
 
   file:projects/communication-common.tgz:
-    resolution: {integrity: sha512-Y8j8dX2CZGGFAcNCg+HrM+n+lU4nRM/1ZeBiZgv1fOrCiVWgzjkOoZwe1CmSq/N7tyWxdayM77hvsG3Zr4bgsQ==, tarball: file:projects/communication-common.tgz}
+    resolution: {integrity: sha512-k2ja/lXgv1kcWRSHNTghQyOswSsdiitaUqeVU5qgy3ikgqMkEYzw0zPFGCfdb+Z1o9gUimnLtOV0SYyJs9syOA==, tarball: file:projects/communication-common.tgz}
     name: '@rush-temp/communication-common'
     version: 0.0.0
     dependencies:
@@ -19355,7 +19343,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
       mockdate: 3.0.5
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19372,7 +19360,7 @@ packages:
     dev: false
 
   file:projects/communication-email.tgz:
-    resolution: {integrity: sha512-xRXEkhvXJ87SIsPLCjUr6ud+ZM5mcngwOy4k1vYemoPXeNeGrtT8xa4Xjfj+AcTZqGcSu0KnT7WN0ADTOOWUuA==, tarball: file:projects/communication-email.tgz}
+    resolution: {integrity: sha512-Jp8/cTYie9ZAqYlb5BrR2D9bmfftmLL6u8Y9BQvGery86CLJC+2D3ZUhR8Rn69Lzaf1RRAwi0vMRk8PMXT2aqw==, tarball: file:projects/communication-email.tgz}
     name: '@rush-temp/communication-email'
     version: 0.0.0
     dependencies:
@@ -19398,7 +19386,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 1.14.1
@@ -19413,7 +19401,7 @@ packages:
     dev: false
 
   file:projects/communication-identity.tgz:
-    resolution: {integrity: sha512-Ygovb+LC7mjs7U3cK+yRqarmoLSLXdFX1Bbx0d5Ohm6T6XRnSFnGsCYIdrTXqqLxuBbNwOmAGWbbuuMMc2diEQ==, tarball: file:projects/communication-identity.tgz}
+    resolution: {integrity: sha512-NbLjweqmN1145Y7Azw9nhG2Hy3CsqCvwD3GuIadtt7fM0adRQkc3+qvZl4sBvyU/K1NG3ka23ggOAnwzoxCDEQ==, tarball: file:projects/communication-identity.tgz}
     name: '@rush-temp/communication-identity'
     version: 0.0.0
     dependencies:
@@ -19444,7 +19432,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       process: 0.11.10
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -19461,7 +19449,7 @@ packages:
     dev: false
 
   file:projects/communication-job-router-1.tgz:
-    resolution: {integrity: sha512-Q7ue32A+VikgZLbtUgyCWy6tj5LXwZDPJObBTmqCoWjgZvR7VoPeQsq+v/gmRpfgDEMhi8HQgHhuwDSacc7scw==, tarball: file:projects/communication-job-router-1.tgz}
+    resolution: {integrity: sha512-lQ/wRNyzAhzbkaJbWee0OIHvkzKjrrkcex/4WZlkvNEmPgVS04Tf+YbCzaIfZiQiNfnZnRKm3Qa+AyizBFsdhg==, tarball: file:projects/communication-job-router-1.tgz}
     name: '@rush-temp/communication-job-router-1'
     version: 0.0.0
     dependencies:
@@ -19491,7 +19479,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19509,7 +19497,7 @@ packages:
     dev: false
 
   file:projects/communication-job-router.tgz:
-    resolution: {integrity: sha512-klta9bUdKjEnFpgRl+pyiBywhL61h9GHA7JltubD+8jeYvHJGdh8tR7nP8ctKTnHOSlEExiXOiWeBS63ASDuSQ==, tarball: file:projects/communication-job-router.tgz}
+    resolution: {integrity: sha512-+46PkOpSXlrJiyp/G2UnVlBi/ZX9BcxJBxc9fhM0Xd3xU+oMcWj/Y8RKiBRLppl+c/lLppCCMrJ+/7UT37tknw==, tarball: file:projects/communication-job-router.tgz}
     name: '@rush-temp/communication-job-router'
     version: 0.0.0
     dependencies:
@@ -19538,7 +19526,7 @@ packages:
       karma-sourcemap-loader: 0.4.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19554,7 +19542,7 @@ packages:
     dev: false
 
   file:projects/communication-messages.tgz:
-    resolution: {integrity: sha512-FBiUAbxXx8WErurGj7LYnT9V2OdEUjlKXeP4zj6fcgoZlFFzif4MtoXHLcLCzwoMzGwMc9MOCoYgzs9q89s5bQ==, tarball: file:projects/communication-messages.tgz}
+    resolution: {integrity: sha512-amVE5CPQKTFcNALV8b03W/9yFh7cwID4Q7PUgPKOcSJGLTEgXvWbZUtTQWA1rLD4PUiCZCxGIesecVfhZCGgsA==, tarball: file:projects/communication-messages.tgz}
     name: '@rush-temp/communication-messages'
     version: 0.0.0
     dependencies:
@@ -19583,7 +19571,7 @@ packages:
       karma-sourcemap-loader: 0.4.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19599,7 +19587,7 @@ packages:
     dev: false
 
   file:projects/communication-phone-numbers.tgz:
-    resolution: {integrity: sha512-JyBIVbh2ijFasLIuIo0IMPLyNd+Dr2v4Bl5+9rbh0Ky03HSzpmaU+l6DrYLNxMQe6Q/tE5ulOqy5kLgkITdpVw==, tarball: file:projects/communication-phone-numbers.tgz}
+    resolution: {integrity: sha512-SaDCd0m0I3sPw0g723pmc5N0LhPYcTWQbvzVNOLXuHD1D5Y2+atQi/NkxxYWD1QbWw28CzTStt8U38vS6BbEww==, tarball: file:projects/communication-phone-numbers.tgz}
     name: '@rush-temp/communication-phone-numbers'
     version: 0.0.0
     dependencies:
@@ -19629,7 +19617,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19645,7 +19633,7 @@ packages:
     dev: false
 
   file:projects/communication-recipient-verification.tgz:
-    resolution: {integrity: sha512-iyzED4F1Ik+GblZhhrQVVCwrH8YuQPZ0p9CPZ/CSZHhhLoBeFxb8uvrKzFTTJTBhTIZZW6WynbllbsGU7WmaEQ==, tarball: file:projects/communication-recipient-verification.tgz}
+    resolution: {integrity: sha512-MAmgXz/lHYv3abACfGiSEm+hQKP79RLbpd8UwORi/9Bo38rsnwui6CFe8rnSgtg6ciA0bhWYDneORN+O7ejuXg==, tarball: file:projects/communication-recipient-verification.tgz}
     name: '@rush-temp/communication-recipient-verification'
     version: 0.0.0
     dependencies:
@@ -19675,7 +19663,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19692,7 +19680,7 @@ packages:
     dev: false
 
   file:projects/communication-rooms.tgz:
-    resolution: {integrity: sha512-Hnl1LryTZTWTMT/hIKgFiJWa0vEym8WxNWMAr/DyMfUyjv2aEXT/LyqXQRsk7vuoAlfIE4cTvw4/EPbW/kM+uQ==, tarball: file:projects/communication-rooms.tgz}
+    resolution: {integrity: sha512-2DXrSuXwsuWnfHaKhN7dkrDGVa+4Ds087WPh19TdUyCZXFmMtQBDCu7cri/4j4FFCONH9q1CoJKAI1X+ipcpmg==, tarball: file:projects/communication-rooms.tgz}
     name: '@rush-temp/communication-rooms'
     version: 0.0.0
     dependencies:
@@ -19711,7 +19699,7 @@ packages:
       karma-env-preprocessor: 0.1.1
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19727,7 +19715,7 @@ packages:
     dev: false
 
   file:projects/communication-short-codes.tgz:
-    resolution: {integrity: sha512-nn0V5SjYh82u7vuTx2WnEM069Hj+/v2i3njb8HWq/FQqEf7p+fSYttd2KzZ0QrsSrd76Z97zVhS/B8kRC9K/eA==, tarball: file:projects/communication-short-codes.tgz}
+    resolution: {integrity: sha512-mYIXQtEZivlceiEY2wA7qlF50O2Mx0YnNv/oAXGJNpb/8/pxXrDVUOQ94vhMKWcHid8uflA3LjMQEOQdXvtsrA==, tarball: file:projects/communication-short-codes.tgz}
     name: '@rush-temp/communication-short-codes'
     version: 0.0.0
     dependencies:
@@ -19757,7 +19745,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19774,7 +19762,7 @@ packages:
     dev: false
 
   file:projects/communication-sms.tgz:
-    resolution: {integrity: sha512-hZyEGlHw4xSJazQOWmInKIfJ8fI5o0pPbZoVELotvsLviaAAmlMOleqL9QcSv1FgJyQGiWzuO6kNSHkoLCaJEA==, tarball: file:projects/communication-sms.tgz}
+    resolution: {integrity: sha512-8VpneFaOxU9WzjhlE7BONvsnEE8X3K1bAgIOxEm4EWf4U4ATejLX1hKFdmINNJIxA03jfAWXIY6Lh9U6WazgIg==, tarball: file:projects/communication-sms.tgz}
     name: '@rush-temp/communication-sms'
     version: 0.0.0
     dependencies:
@@ -19803,7 +19791,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19820,7 +19808,7 @@ packages:
     dev: false
 
   file:projects/communication-tiering.tgz:
-    resolution: {integrity: sha512-2AL9IUANZ+489U+yQsSmb29MF3KABWOmCyic5fpxbceYT69214dg05xnN1MIJ7zeu6HJEHgKLJf0CIIcRPv99w==, tarball: file:projects/communication-tiering.tgz}
+    resolution: {integrity: sha512-u8x7BZmyxcl/47SpMAQebd4iD5knVH+k7S51tVs9+GaxibTOKCx+rxML6RFWjfNFaiQd7SIkQy2lf9ZHlmoPpw==, tarball: file:projects/communication-tiering.tgz}
     name: '@rush-temp/communication-tiering'
     version: 0.0.0
     dependencies:
@@ -19850,7 +19838,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19867,7 +19855,7 @@ packages:
     dev: false
 
   file:projects/communication-toll-free-verification.tgz:
-    resolution: {integrity: sha512-UhvIgPBuDKu+1RxioiHSLtyUQ7c7p+NixOJKPrnynlEm018oPZWrCnOWtXGoTVGvL1Kw+fRldF6OLAYHaeQSJg==, tarball: file:projects/communication-toll-free-verification.tgz}
+    resolution: {integrity: sha512-RVPfSQ3R6W2G9uOthHINZ3vMQLdDrjURyA9k10mDA/nPKd2HmFNRydB0BszxbbRBWfNQIs7g0qB4koRhdisHIA==, tarball: file:projects/communication-toll-free-verification.tgz}
     name: '@rush-temp/communication-toll-free-verification'
     version: 0.0.0
     dependencies:
@@ -19895,7 +19883,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19911,7 +19899,7 @@ packages:
     dev: false
 
   file:projects/confidential-ledger.tgz:
-    resolution: {integrity: sha512-M0m48BzBGnd0MOmj43UP91bmuHVxg0hPJAwQtFKiR/KWl2gwi1iznqCgqawWwarlRjcYhc9oILcnMEm6/3RWng==, tarball: file:projects/confidential-ledger.tgz}
+    resolution: {integrity: sha512-xJE5hjah5Q1ND99+SCLxEqMyj0oP5IX0v4iZePqV5TjgmfJ+3yaIauRJT5jKNMicxIl0klyO64zNEU5D8DiSrw==, tarball: file:projects/confidential-ledger.tgz}
     name: '@rush-temp/confidential-ledger'
     version: 0.0.0
     dependencies:
@@ -19928,7 +19916,7 @@ packages:
       dotenv: 16.4.5
       eslint: 8.57.0
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -19941,7 +19929,7 @@ packages:
     dev: false
 
   file:projects/container-registry.tgz:
-    resolution: {integrity: sha512-Qy8TPCg6SNZLFu00dOFCCPe6DrUKM5RSAdNFkkCgdN4M6hzW9+MOVjQLb3KJBF+4uij3KdcxUcS50YQolhWuug==, tarball: file:projects/container-registry.tgz}
+    resolution: {integrity: sha512-XgjEa9rVccPNaREGLGhXwqfNqdE/aawLChkgCuBlstZpBNAHibgugfGGMWMFGaNEV5Y43oSGJitLb/7HjLc7lw==, tarball: file:projects/container-registry.tgz}
     name: '@rush-temp/container-registry'
     version: 0.0.0
     dependencies:
@@ -19970,7 +19958,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -20429,7 +20417,7 @@ packages:
     dev: false
 
   file:projects/data-tables.tgz:
-    resolution: {integrity: sha512-u5oqhA0j9Jw6vMUVntv72ZZkCudLYAaBulp6PIT9RSv14NumLHGLyREQnGDAXBXqmbe9+Vz4czFSwVtatqK4ng==, tarball: file:projects/data-tables.tgz}
+    resolution: {integrity: sha512-3Mp9wd3QFEEf2BInIbBexm0ILinFPrgumSiHowEYJxDFVdRHfXlrAD7dDQoTzV2dkGY/bQEraWNZbgD9WcXGVQ==, tarball: file:projects/data-tables.tgz}
     name: '@rush-temp/data-tables'
     version: 0.0.0
     dependencies:
@@ -20456,7 +20444,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -20473,7 +20461,7 @@ packages:
     dev: false
 
   file:projects/defender-easm.tgz:
-    resolution: {integrity: sha512-o5DbhNz+IhKlcyejPVDXxvbYCVRV4MbYLR8iy+T2GJcnbtzj6ItonNv9UHUSBxdykBbFKdBSahgL5RZNyZ+o/g==, tarball: file:projects/defender-easm.tgz}
+    resolution: {integrity: sha512-25H1iRNEHWrw+r2YuHUud5VwcBvhtpxAaCbFEI3n85oF1d10RD67JTeV6dkkoY3wn7DwFJ8tLvQRelM/qaXcLw==, tarball: file:projects/defender-easm.tgz}
     name: '@rush-temp/defender-easm'
     version: 0.0.0
     dependencies:
@@ -20504,7 +20492,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -20625,7 +20613,7 @@ packages:
     dev: false
 
   file:projects/digital-twins-core.tgz:
-    resolution: {integrity: sha512-PJUP7UgpEbZGTQ2O+RmNmdnzVDBCNVeeTIcIVPZdlt5X+x9GLI7AtGmy+Ne0szQ5mY/4OYVndrQtbVf2QXGjJA==, tarball: file:projects/digital-twins-core.tgz}
+    resolution: {integrity: sha512-k5SJ6a8JAeGwrbi0YqjWM0Um8/SzVA35Svi2XN8nHjZUY61FEUnX6cc/ecl5nmElXUJGPMcNLq0kRuE/Vooqog==, tarball: file:projects/digital-twins-core.tgz}
     name: '@rush-temp/digital-twins-core'
     version: 0.0.0
     dependencies:
@@ -20653,7 +20641,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -20749,7 +20737,7 @@ packages:
     dev: false
 
   file:projects/event-hubs.tgz:
-    resolution: {integrity: sha512-ZBwtyYxji4XqjIZTQIvBl+uhjBeVmkCLcAbOHcCjjZoxZ/27E2ZbfZEXZr/lFuUGn5SMpl5rQKB5OGW7eGrnFw==, tarball: file:projects/event-hubs.tgz}
+    resolution: {integrity: sha512-WAFfM9OpTvZvGDR24v3V6oJ/fWG0tkzF4qbB/lwMfy1dBlXkN5INeF97nMjvV7GUpukTQO73NhZbcxtHkcEotg==, tarball: file:projects/event-hubs.tgz}
     name: '@rush-temp/event-hubs'
     version: 0.0.0
     dependencies:
@@ -20790,7 +20778,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
       moment: 2.30.1
-      nyc: 15.1.0
+      nyc: 17.0.0
       process: 0.11.10
       puppeteer: 22.10.1(typescript@5.4.5)
       rhea-promise: 3.0.2
@@ -20809,7 +20797,7 @@ packages:
     dev: false
 
   file:projects/eventgrid-namespaces.tgz:
-    resolution: {integrity: sha512-oiAWRRrmoR318AbKUXkaM+AW7To7EFZf05Wp4V8YwEcQy7LYB90eocuN7mC1EuYRW13TepAqcXQVPgfU7KQFVg==, tarball: file:projects/eventgrid-namespaces.tgz}
+    resolution: {integrity: sha512-rknRTyYbW72BexmOSVjnWbOUC77T36t1JS5qE9I5cew7wifWcDAVV/QooSQ4U53dP3CnJGMIsnvPXkzFuHadWg==, tarball: file:projects/eventgrid-namespaces.tgz}
     name: '@rush-temp/eventgrid-namespaces'
     version: 0.0.0
     dependencies:
@@ -20839,7 +20827,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -20856,7 +20844,7 @@ packages:
     dev: false
 
   file:projects/eventgrid-system-events.tgz:
-    resolution: {integrity: sha512-CtlG7MlMlNkJwsvX8TlX44IoiAdSHlBYayZ9tPO8TO4ofO3X6xtsMZx8w4Hi2jVruZ7jOn7ijKiZOSCE+7YMGg==, tarball: file:projects/eventgrid-system-events.tgz}
+    resolution: {integrity: sha512-u1AGDf/QiDnN+ZnuYxdDl++rFJOI7FTcYw7BqEEFnU9qnNaml/paRhxyNUBXfo+hnAqe5CS8NciWUeWbzcMVZA==, tarball: file:projects/eventgrid-system-events.tgz}
     name: '@rush-temp/eventgrid-system-events'
     version: 0.0.0
     dependencies:
@@ -20886,7 +20874,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       prettier: 2.8.8
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -20904,7 +20892,7 @@ packages:
     dev: false
 
   file:projects/eventgrid.tgz:
-    resolution: {integrity: sha512-7shUAEcQDMj67CrgI4QjwcXp5+eOrVvZUZ6vlz057PfpLWBwR7wwkMk7d9K34QWHyP+TT8kNUdmx2NfLMvWjaQ==, tarball: file:projects/eventgrid.tgz}
+    resolution: {integrity: sha512-PHDbcBvT5dMJ0gMyQJg0nEcUA/AcWBv38uvPWnJrqEzZZy0ow3kY+U4zVtxJA+HViGhNkdrFoCQqq8rUa2ylHQ==, tarball: file:projects/eventgrid.tgz}
     name: '@rush-temp/eventgrid'
     version: 0.0.0
     dependencies:
@@ -20931,7 +20919,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -20947,7 +20935,7 @@ packages:
     dev: false
 
   file:projects/eventhubs-checkpointstore-blob.tgz:
-    resolution: {integrity: sha512-Cch20aHcn0SA1uItE7z53pM7A1gJPOYUnGMfGgs9Bg+aGK7YDPwtCqQlFPu3YcQ1o2qnWeMHtFgpBEAMw2K6xg==, tarball: file:projects/eventhubs-checkpointstore-blob.tgz}
+    resolution: {integrity: sha512-vqr5TdSMuJeUILe8hP5SARrrga7yit1QYA7H4rbQaSjHKAZzQJnKdgLf5Kf1ZkBN5wot2BvCX/qUgQquj/0EUQ==, tarball: file:projects/eventhubs-checkpointstore-blob.tgz}
     name: '@rush-temp/eventhubs-checkpointstore-blob'
     version: 0.0.0
     dependencies:
@@ -20981,7 +20969,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -20996,7 +20984,7 @@ packages:
     dev: false
 
   file:projects/eventhubs-checkpointstore-table.tgz:
-    resolution: {integrity: sha512-imSzOoUOhzDkMTGVmVXOKulIaIJPeM0myMVyJohPIyxN92qzMswwKF7qBs4olAqSNFUp4yKQvlnBQzjBGdN+rA==, tarball: file:projects/eventhubs-checkpointstore-table.tgz}
+    resolution: {integrity: sha512-aVxlSPTNlucteFndWUmE+hn5DOQzbS5InE8X+VirlHOk9u7EzO43aS6Mmuo5ppQ9DrUxT6yn/ye8d8rCGRBFlg==, tarball: file:projects/eventhubs-checkpointstore-table.tgz}
     name: '@rush-temp/eventhubs-checkpointstore-table'
     version: 0.0.0
     dependencies:
@@ -21028,7 +21016,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -21043,7 +21031,7 @@ packages:
     dev: false
 
   file:projects/functions-authentication-events.tgz:
-    resolution: {integrity: sha512-EBHC9eBFDkiTeu6Z+7AIxNE0TL6kjyQY4hGULO1CWsDF10RHW2+fDdb/OJ+zJQz/oVkShyMx/yzf2Ezt7AHfKg==, tarball: file:projects/functions-authentication-events.tgz}
+    resolution: {integrity: sha512-sv2p/krfD4Lt84geEc0NDRpZstg+hrKqNVWWUB8R4X9toItM8DO/ww82A+zfb3Y7VpRPJzXbZYaIGHRB8D5JSw==, tarball: file:projects/functions-authentication-events.tgz}
     name: '@rush-temp/functions-authentication-events'
     version: 0.0.0
     dependencies:
@@ -21071,7 +21059,7 @@ packages:
       karma-mocha: 2.0.1
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21088,7 +21076,7 @@ packages:
     dev: false
 
   file:projects/health-insights-cancerprofiling.tgz:
-    resolution: {integrity: sha512-knSmGvR2vrh2PC6vk+0kTQ3FRRmD31neBGDCABqATHfI+NKzAY1KUJ6iBd4syBA9upFFkBRjYOT74l3P9tCASw==, tarball: file:projects/health-insights-cancerprofiling.tgz}
+    resolution: {integrity: sha512-WRwTm8xr0nmkQs1ivH2qfQsZw1uPnRzElza0sHqsdxDF8gPnGoyDcPmJHIsW2wbnBymem0iqOGlYQDUq2smIpA==, tarball: file:projects/health-insights-cancerprofiling.tgz}
     name: '@rush-temp/health-insights-cancerprofiling'
     version: 0.0.0
     dependencies:
@@ -21119,7 +21107,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21135,7 +21123,7 @@ packages:
     dev: false
 
   file:projects/health-insights-clinicalmatching.tgz:
-    resolution: {integrity: sha512-ikoz79TFUl/5jnayf0QfpcN6DfPm1LTsPgiIGoHklWAfV7OComuUkvYdhVEuZ8222CPNC1IPpn7C5z4noWS8qw==, tarball: file:projects/health-insights-clinicalmatching.tgz}
+    resolution: {integrity: sha512-uhk2WTCVCRlCxMz/8E7sjCtLM5jgviHc8/v+1Yp1rwThF+C61CERJJK5ODwG1LG1Hh1v9CSdkuH3p5sWdwby8A==, tarball: file:projects/health-insights-clinicalmatching.tgz}
     name: '@rush-temp/health-insights-clinicalmatching'
     version: 0.0.0
     dependencies:
@@ -21166,7 +21154,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21182,7 +21170,7 @@ packages:
     dev: false
 
   file:projects/health-insights-radiologyinsights.tgz:
-    resolution: {integrity: sha512-xAM2kqKp9eRjzuQV4Obk+hv02S1J/DHcxuTLipVVPUSYsGU7neDsoxlhre/XmxAei7GhKj8mW1MeULxae54+fw==, tarball: file:projects/health-insights-radiologyinsights.tgz}
+    resolution: {integrity: sha512-qoS/77XZOMM/Ys97duRaZqiPJ7dZmU6H8dtJGk6tqnjhGnEusf1702ECIv9KFtBCDiBU09SsivO3QROEuG1uQw==, tarball: file:projects/health-insights-radiologyinsights.tgz}
     name: '@rush-temp/health-insights-radiologyinsights'
     version: 0.0.0
     dependencies:
@@ -21213,7 +21201,7 @@ packages:
       karma-sourcemap-loader: 0.4.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21328,7 +21316,7 @@ packages:
     dev: false
 
   file:projects/identity.tgz:
-    resolution: {integrity: sha512-QPAkrLan7YVdCq5wbTKSrSHHspfir1LHb9cfCpSBRZis07uqUjhyyJb9XFuur0VM9d8riplpWiLYQl0gkBz6wQ==, tarball: file:projects/identity.tgz}
+    resolution: {integrity: sha512-whd921mtwaRlHJuuqqmRgUc+kzq2mFG7mbQMl7HdyuYkznfj4goAE1RyNZUXYpJ124jMq+t9lcSU61PVtqLqcQ==, tarball: file:projects/identity.tgz}
     name: '@rush-temp/identity'
     version: 0.0.0
     dependencies:
@@ -21365,7 +21353,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
       ms: 2.1.3
-      nyc: 15.1.0
+      nyc: 17.0.0
       open: 8.4.2
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
@@ -21385,7 +21373,7 @@ packages:
     dev: false
 
   file:projects/iot-device-update.tgz:
-    resolution: {integrity: sha512-y8igara0nPLv+Svp/d4sVOePSqCMhQ4D4ls+qvYe7PK/dnKa0KHMLpD1mOOxck8cHng/0k4oxysdMlJKLp/JFA==, tarball: file:projects/iot-device-update.tgz}
+    resolution: {integrity: sha512-fw53K80UmflhMQWE+6kdr3iYYdpcckdnGscvTxo+C6hVRjFe6h6bkPH4/VJEaeAoKXEZ4ypPG9Ov/+98S+4Bkg==, tarball: file:projects/iot-device-update.tgz}
     name: '@rush-temp/iot-device-update'
     version: 0.0.0
     dependencies:
@@ -21416,7 +21404,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21432,7 +21420,7 @@ packages:
     dev: false
 
   file:projects/iot-modelsrepository.tgz:
-    resolution: {integrity: sha512-Z3r0s0MPewb2f8rUylf2xeUBdiM5MK9AFevBkBU/9z99pUjZyh1kvAk9zj0TQbHEJpuaGAw6fdFxvaZd0ye4gw==, tarball: file:projects/iot-modelsrepository.tgz}
+    resolution: {integrity: sha512-K5jSGAfSKTLXltOxpazQYWkKh4mEr7CD3ATkg1CjLrfK7bMkBBnfY+hPAwKOaVsVi20Kre4PnxujbI8Q89irzQ==, tarball: file:projects/iot-modelsrepository.tgz}
     name: '@rush-temp/iot-modelsrepository'
     version: 0.0.0
     dependencies:
@@ -21459,7 +21447,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21476,7 +21464,7 @@ packages:
     dev: false
 
   file:projects/keyvault-admin.tgz:
-    resolution: {integrity: sha512-vONPnewx6q8BuPkbnPduyYeHlChDqYqJO70vANam6CsFMN4zAyHWuHRCe7PchtOSgx0vzkl/YvG09kl2V7zuZA==, tarball: file:projects/keyvault-admin.tgz}
+    resolution: {integrity: sha512-Qj07GWxePID7OTnZ1OX732ur/Fr79JG/t3KnMxh9L28cx8BcNut3cSEhag7nr7LP81O57B1jcd7m2u3nsvTcJg==, tarball: file:projects/keyvault-admin.tgz}
     name: '@rush-temp/keyvault-admin'
     version: 0.0.0
     dependencies:
@@ -21494,7 +21482,7 @@ packages:
       dotenv: 16.4.5
       eslint: 8.57.0
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -21509,7 +21497,7 @@ packages:
     dev: false
 
   file:projects/keyvault-certificates.tgz:
-    resolution: {integrity: sha512-Qwd98s2iMN4ZDxh8XLsert9imux/RrQnUV1NVwzxAaNd7K6dvhZOcOgsZrJQ/rSOkyM9/sVldVGEY/thRFecLw==, tarball: file:projects/keyvault-certificates.tgz}
+    resolution: {integrity: sha512-vbCfpAKEl4O/h4vEIdmEZafBYB+Wr9nZc2LFtCPabePSYtYs6Xtlip1I9nWUDb4o4lnWpZphq1QV2LESFUS6pA==, tarball: file:projects/keyvault-certificates.tgz}
     name: '@rush-temp/keyvault-certificates'
     version: 0.0.0
     dependencies:
@@ -21537,7 +21525,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -21555,7 +21543,7 @@ packages:
     dev: false
 
   file:projects/keyvault-common.tgz:
-    resolution: {integrity: sha512-HZlDlQ+CmWc57EMgQAnEVW6T0KCD1aB0F26iV62uWvFFfGtPgNeT5H0f8YGTt64qnyWjVKcSch5RRReLmFY4GA==, tarball: file:projects/keyvault-common.tgz}
+    resolution: {integrity: sha512-zM5575AjoyIUkaXfip6l5cEQJ1qtjLZTW2PGtmiqxUwVKz8JqqbTxtcwbx7JdHs86/hqIm9Gg97MdVB+AbD5HA==, tarball: file:projects/keyvault-common.tgz}
     name: '@rush-temp/keyvault-common'
     version: 0.0.0
     dependencies:
@@ -21566,7 +21554,7 @@ packages:
       cross-env: 7.0.3
       eslint: 8.57.0
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -21583,7 +21571,7 @@ packages:
     dev: false
 
   file:projects/keyvault-keys.tgz:
-    resolution: {integrity: sha512-aS1vKYQKlF2GV2cfqHc1H2/k3VoGwG1E/lTr5W/K91RgiyX2B3pRx2h3Ti7LIKRYvCiEEiMPk0jB+p0RuRVHoA==, tarball: file:projects/keyvault-keys.tgz}
+    resolution: {integrity: sha512-OyY3f8wt2pUk5q7aFikLwYSnSeL2mrzgc3UtdCowgLr2z7aTESrnDjPweTEC8X93IuzsRazV+L1viWqNVhfBDQ==, tarball: file:projects/keyvault-keys.tgz}
     name: '@rush-temp/keyvault-keys'
     version: 0.0.0
     dependencies:
@@ -21612,7 +21600,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -21630,7 +21618,7 @@ packages:
     dev: false
 
   file:projects/keyvault-secrets.tgz:
-    resolution: {integrity: sha512-z6heC9EfNP0bWwSpepGq5HGqDkmDNBlekUq/6tEHK3EnjyJiUJHTHecq3gjY1BNt0H6c5HkKiu09x4LGtwAtew==, tarball: file:projects/keyvault-secrets.tgz}
+    resolution: {integrity: sha512-AWiD9RtjXGYwbMYLOlyOLsVvA6xflSgr0O/ZRkm/YKnNtYlr4tPkgU6PH2TmCWypLtcD2cTb0E8Mzt+/M0rUmA==, tarball: file:projects/keyvault-secrets.tgz}
     name: '@rush-temp/keyvault-secrets'
     version: 0.0.0
     dependencies:
@@ -21656,7 +21644,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -21674,7 +21662,7 @@ packages:
     dev: false
 
   file:projects/load-testing.tgz:
-    resolution: {integrity: sha512-6V0S3pIyGB+gIDspR+XRRlf8pRE5pi5HHGL29serWXBPDGM8D17jBuSQjwUvchKURVRy0VJad/sAnvtrqrzrzg==, tarball: file:projects/load-testing.tgz}
+    resolution: {integrity: sha512-ZynXr9Svr1nCKRXXJsPo2LpT0GX5uzN7uQx3f+9/p+Zn4q76CXhM2f69UL0Z4cqtppeBd7Ou7EmXMRW9I1ZYvw==, tarball: file:projects/load-testing.tgz}
     name: '@rush-temp/load-testing'
     version: 0.0.0
     dependencies:
@@ -21706,7 +21694,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21775,7 +21763,7 @@ packages:
     dev: false
 
   file:projects/maps-geolocation.tgz:
-    resolution: {integrity: sha512-+GGM8Da7UTLzmFpgdpBJNyRR8zf6kkYU/P+upwTKKPW4HSPTYTHJzv2F+AWSSNHCTHbEWukJItbmI9tAGMPP+g==, tarball: file:projects/maps-geolocation.tgz}
+    resolution: {integrity: sha512-wq8t5YAmUfNHB7jweKMvb9VkTTlWOm0pUZDukq2b2Rctk8JSx2wDwdURLUiyOGDG/T/JH+TT5JGUdZLOuOrQog==, tarball: file:projects/maps-geolocation.tgz}
     name: '@rush-temp/maps-geolocation'
     version: 0.0.0
     dependencies:
@@ -21805,7 +21793,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21821,7 +21809,7 @@ packages:
     dev: false
 
   file:projects/maps-render.tgz:
-    resolution: {integrity: sha512-v6aRlzZOvEjMpc4gkHkN5gAEzZCbb97P4Hc+icaPTPjqWFiKMKKTnhkvL0KtWfxBhfhYtTpVIb9yVlDG+VKJEQ==, tarball: file:projects/maps-render.tgz}
+    resolution: {integrity: sha512-O/i0QBuNqPAk5LhDCquohbI1affhjbXJB/NDGAW1uSlG5tAKIGi9pVZYj8MWGuOW4iz9gSVM/86D/c0/4+FvQg==, tarball: file:projects/maps-render.tgz}
     name: '@rush-temp/maps-render'
     version: 0.0.0
     dependencies:
@@ -21851,7 +21839,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21867,7 +21855,7 @@ packages:
     dev: false
 
   file:projects/maps-route.tgz:
-    resolution: {integrity: sha512-f9kfTahoWAyKRaF4L8SKN3HUuHvSCaj+8IsSd/IpuuJ02PnDGBvLGdIxlgXEQCq4mia4mRTFIr6OoeYijp1gKg==, tarball: file:projects/maps-route.tgz}
+    resolution: {integrity: sha512-BEk0tetKS7jLJSAYEfagPVb1gMyf6tAKB40e0RuZSXpocbQLZpgORO1jEbOYv08jpU6iZHdP4HFGt2DGGm+ZaA==, tarball: file:projects/maps-route.tgz}
     name: '@rush-temp/maps-route'
     version: 0.0.0
     dependencies:
@@ -21898,7 +21886,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21914,7 +21902,7 @@ packages:
     dev: false
 
   file:projects/maps-search.tgz:
-    resolution: {integrity: sha512-4fwjw3YuPIQGvLdzaAPAbtkMHG4zkZ1lO2N+dVAXgOHYpABOELJaLfOBuFdy1jkuaysZEzd57ZbvxY/xU4VVMw==, tarball: file:projects/maps-search.tgz}
+    resolution: {integrity: sha512-QW0F9ALLLze9SbJV3lNpz3M9z5byCYc4bmlFO2SxmpWH0N20FQ3m5t5+jFES08gTSwhxOY0pVA4WkKsT2uAqyQ==, tarball: file:projects/maps-search.tgz}
     name: '@rush-temp/maps-search'
     version: 0.0.0
     dependencies:
@@ -21945,7 +21933,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -21961,7 +21949,7 @@ packages:
     dev: false
 
   file:projects/mixed-reality-authentication.tgz:
-    resolution: {integrity: sha512-xr6cEWU7r4iiDGpHx7qlntr8DF7G4y9SzSC0dVANd4KOIBuUQJc769wGoAFJJk+kZjpuE9ooAj//C9uV2FW7MA==, tarball: file:projects/mixed-reality-authentication.tgz}
+    resolution: {integrity: sha512-H0dl92mB/IKXpTxRKxsBQ5prfp/tOBJvSH35J/6MpnOJNk43jhDDGt0T5ta2H6hqS/zyYsUzDM21cRHM9DUmPw==, tarball: file:projects/mixed-reality-authentication.tgz}
     name: '@rush-temp/mixed-reality-authentication'
     version: 0.0.0
     dependencies:
@@ -21988,7 +21976,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -22004,7 +21992,7 @@ packages:
     dev: false
 
   file:projects/mixed-reality-remote-rendering.tgz:
-    resolution: {integrity: sha512-N27o70P/K3PKkRMvzfLRMEdA4PbiyZWKSJpT3+yiVs4qChH+UtljaLAQwaFeHXqQ/UoG3y6igQruvSnAbJAlkA==, tarball: file:projects/mixed-reality-remote-rendering.tgz}
+    resolution: {integrity: sha512-bic9JO12LvBsCRjeuQuP/aKSHtVBFdvptxfbjAgE3nh7GXkyWSijySOj7ednckgwxJrvl7LCiZkExqmT8JzPYA==, tarball: file:projects/mixed-reality-remote-rendering.tgz}
     name: '@rush-temp/mixed-reality-remote-rendering'
     version: 0.0.0
     dependencies:
@@ -22035,7 +22023,7 @@ packages:
       karma-mocha: 2.0.1
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -22072,7 +22060,7 @@ packages:
     dev: false
 
   file:projects/monitor-ingestion.tgz:
-    resolution: {integrity: sha512-fL3tQObZwLkNWleudftXuNCTXkiQN9BlzFvrqCaWJ9Jhs1fu5SrVLqUF+xZal1RgAqIqgAfPU4tgM688LnLd7A==, tarball: file:projects/monitor-ingestion.tgz}
+    resolution: {integrity: sha512-Zlnkm6wO4KMyKgzrb9QuTwyvSuu4nHRDVjS0lnwrfxi6/UTbcIRWEavSGJfgOWRC723h82/tJsAJOcYObhY5hQ==, tarball: file:projects/monitor-ingestion.tgz}
     name: '@rush-temp/monitor-ingestion'
     version: 0.0.0
     dependencies:
@@ -22102,7 +22090,7 @@ packages:
       karma-mocha: 2.0.1
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       pako: 2.1.0
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -22121,7 +22109,7 @@ packages:
     dev: false
 
   file:projects/monitor-opentelemetry-exporter.tgz:
-    resolution: {integrity: sha512-V/wo669B/kmq98AWkfSGvAnihtguw/q8qUDBaeT501r4HoIegrAn5cJrF87qum46r+Gd37LyZwCdgZnVoCLzZA==, tarball: file:projects/monitor-opentelemetry-exporter.tgz}
+    resolution: {integrity: sha512-RcKKSjWbwq6znpgdHEauvlJSq0c4A/wTQw8UPGr0xQ0u/61rFAvvppHBYjdd1fcyok78nbPIAKLvoRWYbN9slg==, tarball: file:projects/monitor-opentelemetry-exporter.tgz}
     name: '@rush-temp/monitor-opentelemetry-exporter'
     version: 0.0.0
     dependencies:
@@ -22145,7 +22133,7 @@ packages:
       eslint-plugin-node: 11.1.0(eslint@8.57.0)
       mocha: 10.4.0
       nock: 13.5.4
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       tslib: 2.6.3
@@ -22156,7 +22144,7 @@ packages:
     dev: false
 
   file:projects/monitor-opentelemetry.tgz:
-    resolution: {integrity: sha512-S0H5InStJ3aZfjG31tJfAVeotAcTAP21/qCvBOxY9lIZ9Z62NmEoVthgXW61SWTpd0STSuxQ05d6ZvzQ3rpHxw==, tarball: file:projects/monitor-opentelemetry.tgz}
+    resolution: {integrity: sha512-IfQNQA7BZHPTIW69lYicAruN/6uHg9lJjHn2uDuj1HczGZ23GfGtlMH/QiWGiEvW94b/7euqCkA69Ta2466gyw==, tarball: file:projects/monitor-opentelemetry.tgz}
     name: '@rush-temp/monitor-opentelemetry'
     version: 0.0.0
     dependencies:
@@ -22193,7 +22181,7 @@ packages:
       eslint-plugin-node: 11.1.0(eslint@8.57.0)
       mocha: 10.4.0
       nock: 13.5.4
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       tslib: 2.6.3
@@ -22204,7 +22192,7 @@ packages:
     dev: false
 
   file:projects/monitor-query.tgz:
-    resolution: {integrity: sha512-0lEMaE63tJ3evqG54LrBNCT1wLbEpCVDRnk/8/g0jJhCZAUa7Nm44CyA2hwJypF41f3wzAQgG+dv6JKK/QnLiw==, tarball: file:projects/monitor-query.tgz}
+    resolution: {integrity: sha512-L0kd9ShU2fenzpqC8klniXGpwY9lXDFAxWICPKQNioJtMvQ+wynYfDPDov+jGRMg57RRn3AQIjKvu7XzzeAkKg==, tarball: file:projects/monitor-query.tgz}
     name: '@rush-temp/monitor-query'
     version: 0.0.0
     dependencies:
@@ -22235,7 +22223,7 @@ packages:
       karma-mocha: 2.0.1
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       tslib: 2.6.3
@@ -22283,7 +22271,7 @@ packages:
     dev: false
 
   file:projects/openai-1.tgz:
-    resolution: {integrity: sha512-gFcXBdZe6oWK1h7f/03QoCi7ZodEgJWDRZvV3BfmkhSj0tioEwE3lrJPff0HyBN3aA5umO+ZyIonMD5DmmJQHg==, tarball: file:projects/openai-1.tgz}
+    resolution: {integrity: sha512-Jrig5FNNLVSW2r/JXbyt3LqeU5FKEjWBeHcerWPhI+Q5vTbPDwMfRoH2Btpa7WLfxQZw7x6PwPaTva1SY4Vvow==, tarball: file:projects/openai-1.tgz}
     name: '@rush-temp/openai-1'
     version: 0.0.0
     dependencies:
@@ -22312,7 +22300,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -22328,7 +22316,7 @@ packages:
     dev: false
 
   file:projects/openai-assistants.tgz:
-    resolution: {integrity: sha512-WsbOMkCS7dkBU+b0ERboF8zYs8x7Y4a3DskldgFoZau4AMjaqneie92hfNXJeorQMMWbC0vpVYDI3j825shy8Q==, tarball: file:projects/openai-assistants.tgz}
+    resolution: {integrity: sha512-UCW8bYql0Gq0qcB1ABu7ujE0ry8PFofKqkQeuBxesXQgzZI6F6P4shLNqXlfgyQtoYnCH9RcGXPI3S8wnGcnvQ==, tarball: file:projects/openai-assistants.tgz}
     name: '@rush-temp/openai-assistants'
     version: 0.0.0
     dependencies:
@@ -22355,7 +22343,7 @@ packages:
       karma-sourcemap-loader: 0.4.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -22393,7 +22381,7 @@ packages:
     dev: false
 
   file:projects/opentelemetry-instrumentation-azure-sdk.tgz:
-    resolution: {integrity: sha512-rHWrsu8RBJCNdhIlQBcW9xQhQEu+eO/f+l38mr6LJ4Aiu4Qsy9ExLTSo2Ctqh8PxnxBnzciRtyv0G6yWpAebSw==, tarball: file:projects/opentelemetry-instrumentation-azure-sdk.tgz}
+    resolution: {integrity: sha512-6BNlmij2A/zxmVzE0QZjOrV+lFyT+oWAJSSvecJAo6uO5KMsnF5JnkRuwuiMD6UAC7XeM1NxS+1rDZ4ILBQcaw==, tarball: file:projects/opentelemetry-instrumentation-azure-sdk.tgz}
     name: '@rush-temp/opentelemetry-instrumentation-azure-sdk'
     version: 0.0.0
     dependencies:
@@ -22421,7 +22409,7 @@ packages:
       karma-mocha: 2.0.1
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -22905,7 +22893,7 @@ packages:
     dev: false
 
   file:projects/purview-administration.tgz:
-    resolution: {integrity: sha512-KDYSKwHBdzABEFtMqb/2/6Vsnm5XvuVwSMXMb8zd/tDm8BH65dRAw6t9EEq8EocAYC6vRsyRoebpA+dcSgD2dA==, tarball: file:projects/purview-administration.tgz}
+    resolution: {integrity: sha512-nPLhcGiWhCvKJH1Ro76LLsmkRjGio9pVKk5PWxz2QNhBVsv5fya392/uNNPYo4Mhm0v+9xgbPuVRDKPxkxjtwA==, tarball: file:projects/purview-administration.tgz}
     name: '@rush-temp/purview-administration'
     version: 0.0.0
     dependencies:
@@ -22933,7 +22921,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -22949,7 +22937,7 @@ packages:
     dev: false
 
   file:projects/purview-catalog.tgz:
-    resolution: {integrity: sha512-BasykcFDPWO54MdS4LxZnSz1/WXbCwYjCvsY6iC+eFrF8k2y8lawUok37Be6gHA1IYOrnkngsAtLRc2EDS5ptg==, tarball: file:projects/purview-catalog.tgz}
+    resolution: {integrity: sha512-jQYsP23oEFo5jetnaw2fIytN7Pzz8bJOlrwSkvIxUrWOmvnFTRabxqx/xrLCLO5hKBOYnNaPtW9hUt11LcGRpw==, tarball: file:projects/purview-catalog.tgz}
     name: '@rush-temp/purview-catalog'
     version: 0.0.0
     dependencies:
@@ -22978,7 +22966,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -22994,7 +22982,7 @@ packages:
     dev: false
 
   file:projects/purview-datamap.tgz:
-    resolution: {integrity: sha512-U53eAUPumCqhhoEb2TP7D6wjo7SIJA8oEFckjyWVD5sMat2mJ1Q9nO84wsisMDExbLCm3hK6uw7AP2E3iF8WNg==, tarball: file:projects/purview-datamap.tgz}
+    resolution: {integrity: sha512-Wpn/DIUkCQD9I2qXnQ6Dj3FL3J8bykZn+Gevdy8aJBaDTQDWyi4mw4y9eLqmPKPWPVnmN210XrZei0E6ko4kAA==, tarball: file:projects/purview-datamap.tgz}
     name: '@rush-temp/purview-datamap'
     version: 0.0.0
     dependencies:
@@ -23023,7 +23011,7 @@ packages:
       karma-sourcemap-loader: 0.4.0
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -23039,7 +23027,7 @@ packages:
     dev: false
 
   file:projects/purview-scanning.tgz:
-    resolution: {integrity: sha512-Esa2SINTL5mzkjpbXRoqvR72fityNkJaKI7tAeRm+fmESRFszjbXyk8+GW2t3LoL8YJUjrmgjh+3A1Ul/B2OOA==, tarball: file:projects/purview-scanning.tgz}
+    resolution: {integrity: sha512-xQwIZf6qOMUpcnFmo5ZW4jos1//73aYijAQHx6PY80BGSYvXGxvv4zCwOcmTpyCusmT29/wIkRADqGCYbqkRIw==, tarball: file:projects/purview-scanning.tgz}
     name: '@rush-temp/purview-scanning'
     version: 0.0.0
     dependencies:
@@ -23067,7 +23055,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -23083,7 +23071,7 @@ packages:
     dev: false
 
   file:projects/purview-sharing.tgz:
-    resolution: {integrity: sha512-p/+v9ovncMASEn/elUdJQ3wSheixHdZ6HB6wFvmSnRydQ0O9CLCtp6nORpe6dS3JVTFGR7LFWMUDM3Ew5U5x4A==, tarball: file:projects/purview-sharing.tgz}
+    resolution: {integrity: sha512-WjPe+HdDcGsJHJusrVa2qXmZjCyn/4Z8WTN4eVPgg1SKu+HntsZSEA9i6MWCgeMHRDGkFRaFRYYjiV6TCZp5cg==, tarball: file:projects/purview-sharing.tgz}
     name: '@rush-temp/purview-sharing'
     version: 0.0.0
     dependencies:
@@ -23114,7 +23102,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -23130,7 +23118,7 @@ packages:
     dev: false
 
   file:projects/purview-workflow.tgz:
-    resolution: {integrity: sha512-ycpLTjwvL7FMcfvDTdvqlsTVqvAYzZ9u/J9PY0DAxzBs0+UQ5XzitubNi3F5RJrJ7WnztZeiexDaQl9rDiAkjg==, tarball: file:projects/purview-workflow.tgz}
+    resolution: {integrity: sha512-H/+AundNMA3jD/IWKFt2xupxBcwKhfMBdVCLNgCsCX8+IaeoNmgHbxJC2rDNmixn44xzQDyoBFv0uonDafa0zQ==, tarball: file:projects/purview-workflow.tgz}
     name: '@rush-temp/purview-workflow'
     version: 0.0.0
     dependencies:
@@ -23159,7 +23147,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mkdirp: 3.0.1
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -23175,7 +23163,7 @@ packages:
     dev: false
 
   file:projects/quantum-jobs.tgz:
-    resolution: {integrity: sha512-RtmI/ZJbREK0zj0aS3BtL1vnG39a0w/+fXI3EnN00gmltxPE9OXYYG6+SOIwaHFdEwBUbOfDTg/w/uo6YoGhRA==, tarball: file:projects/quantum-jobs.tgz}
+    resolution: {integrity: sha512-TdE1wK9UIixXzepiAN1u61ApScNA9+QT3xdlLFWqBnEUyMqVtmBxduEfHxTFvsveWgxGtT7sqvrfRnikLwbO2w==, tarball: file:projects/quantum-jobs.tgz}
     name: '@rush-temp/quantum-jobs'
     version: 0.0.0
     dependencies:
@@ -23204,7 +23192,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -23221,7 +23209,7 @@ packages:
     dev: false
 
   file:projects/schema-registry-avro.tgz:
-    resolution: {integrity: sha512-LC3zOJ1w9vmqkjhfeaFixxy/aWB39YogGLREpy7zni05Vy2/fU+gFDMzNPo796VM1uQCrds1B3JMadbchIR/5A==, tarball: file:projects/schema-registry-avro.tgz}
+    resolution: {integrity: sha512-y+4FvUeRgxONp2NTz23VB10eEwhyHftXdMKmU1lA4mORY0YymZPQR/fyhMI8Gq9YnLVbxlFA96u6RuG0oy20IA==, tarball: file:projects/schema-registry-avro.tgz}
     name: '@rush-temp/schema-registry-avro'
     version: 0.0.0
     dependencies:
@@ -23256,7 +23244,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       lru-cache: 10.2.2
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       process: 0.11.10
       rimraf: 5.0.7
       stream: 0.0.2
@@ -23274,7 +23262,7 @@ packages:
     dev: false
 
   file:projects/schema-registry-json.tgz:
-    resolution: {integrity: sha512-a7kfkWR/nbeKXq+UEaq6PPh7YvSy6EN15qhknk1PPz6wYXXbU/m+HDG2vEv50jiItxWMYwn5xiXzO4hDmRhKAg==, tarball: file:projects/schema-registry-json.tgz}
+    resolution: {integrity: sha512-trgsbT2+Z5uiEHbn4CJgcMOP3qesU+y8op2Sma3hrAnPy1ZEO01vpwcqn3rLIQj9eNUW7MD/ZZU3boypfAdp2A==, tarball: file:projects/schema-registry-json.tgz}
     name: '@rush-temp/schema-registry-json'
     version: 0.0.0
     dependencies:
@@ -23302,7 +23290,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       lru-cache: 10.2.2
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -23317,7 +23305,7 @@ packages:
     dev: false
 
   file:projects/schema-registry.tgz:
-    resolution: {integrity: sha512-FuVfatvYoYYg1cVANlan2teNRIjUv+5StayQJaKellbiQ7dTXx+nHCb71OzV7AezUf/xlDFH9VYwy7iYmKZi9Q==, tarball: file:projects/schema-registry.tgz}
+    resolution: {integrity: sha512-Cwe4eJOCOrh9VzjXBErvoZiP6lrSxoVuTq0eW+p8BhdfA64xGuN6bTj1KLL3JHPr45BTQPT6taONkhr+t5FELQ==, tarball: file:projects/schema-registry.tgz}
     name: '@rush-temp/schema-registry'
     version: 0.0.0
     dependencies:
@@ -23342,7 +23330,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -23357,7 +23345,7 @@ packages:
     dev: false
 
   file:projects/search-documents.tgz:
-    resolution: {integrity: sha512-rrxywwpWHVWVIv7Xm1kK1gQpHwQtlKpjdItNlFBJ600vjwKLzDyUxhiYSlfl8daICjJdig+n84lophu77HkSVg==, tarball: file:projects/search-documents.tgz}
+    resolution: {integrity: sha512-QwCqI/QWOkgjhu7u6gjKdT5bzrmcjYRvPbXwCJKSf9X+ixHviiE6SU2TevqsXRgr15OcmgRuCRq92eJA/A2VnQ==, tarball: file:projects/search-documents.tgz}
     name: '@rush-temp/search-documents'
     version: 0.0.0
     dependencies:
@@ -23386,7 +23374,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.3.3)
@@ -23403,7 +23391,7 @@ packages:
     dev: false
 
   file:projects/service-bus.tgz:
-    resolution: {integrity: sha512-mVI8gctTNNBi4D2V2LdKlsTb0cf2dJ5z6GJLzVIMZyAeDZ3vU2BdcFAiMRYE0gbeUea8GbVbpsvT6yhgMvabMw==, tarball: file:projects/service-bus.tgz}
+    resolution: {integrity: sha512-RH8QYY53WXdRh6qkiosOeQNwjlWZoQcgVPFCpk5uOt7tzA94AgpxUmT94OlReL+0Y5HUVkVStlAkJbDcs2Jmfg==, tarball: file:projects/service-bus.tgz}
     name: '@rush-temp/service-bus'
     version: 0.0.0
     dependencies:
@@ -23444,7 +23432,7 @@ packages:
       long: 5.2.3
       mocha: 10.4.0
       moment: 2.30.1
-      nyc: 15.1.0
+      nyc: 17.0.0
       process: 0.11.10
       promise: 8.3.0
       puppeteer: 22.10.1(typescript@5.4.5)
@@ -23465,7 +23453,7 @@ packages:
     dev: false
 
   file:projects/storage-blob-changefeed.tgz:
-    resolution: {integrity: sha512-6WJzO/4W+1DseF3OzGO0j/fnRffm7Gd+lyHFlGgDAIeOBIXP6j56rMVWeWAimTOCe2UDsUCVvKsNUtpGI9RFIA==, tarball: file:projects/storage-blob-changefeed.tgz}
+    resolution: {integrity: sha512-ab3N+lN3fatlvRx5LLqy4KuvcIfENzSSQv1EsuZiCegbJjwuwj+ZAlh9k8bMtm8NVgGNKewMrlmB86MT/FzRxw==, tarball: file:projects/storage-blob-changefeed.tgz}
     name: '@rush-temp/storage-blob-changefeed'
     version: 0.0.0
     dependencies:
@@ -23497,7 +23485,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -23516,7 +23504,7 @@ packages:
     dev: false
 
   file:projects/storage-blob.tgz:
-    resolution: {integrity: sha512-wnGBKBpHtPKawBixChAIefVI/HwYcuTpMz8TZr+5RXnHuRfYsMpuG29+py4NOLjlGpajyTQOKSu65UBr0j0L1Q==, tarball: file:projects/storage-blob.tgz}
+    resolution: {integrity: sha512-cgV3HpPjkeCqMhfo7ltvDoxK6z4DKa0kt8HOwrbWLqDhud5qCMNTAugX/C2M8KXsUJnkPkB35MX/Oh6DOUQJLg==, tarball: file:projects/storage-blob.tgz}
     name: '@rush-temp/storage-blob'
     version: 0.0.0
     dependencies:
@@ -23546,7 +23534,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       source-map-support: 0.5.21
@@ -23564,7 +23552,7 @@ packages:
     dev: false
 
   file:projects/storage-file-datalake.tgz:
-    resolution: {integrity: sha512-hbfVXoPkzPjq5RKyJm4ak3fLVqLn0D8Iza9rQxyfBq3dxXMLzOkMUf2vhFgU7RTvgsOnFi18U8DLOVANc5KcQQ==, tarball: file:projects/storage-file-datalake.tgz}
+    resolution: {integrity: sha512-gtH7/1rxeFU84VUVaK4FGObmkmzDsy64HllYeh5vtal6qPbo0Cl2LM88YZeeVWmju7JsJM5uZCo/t1G024O4WA==, tarball: file:projects/storage-file-datalake.tgz}
     name: '@rush-temp/storage-file-datalake'
     version: 0.0.0
     dependencies:
@@ -23596,7 +23584,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -23615,7 +23603,7 @@ packages:
     dev: false
 
   file:projects/storage-file-share.tgz:
-    resolution: {integrity: sha512-JoQCqxkTega8a0J3OQRvlwxgLAS9ls9pMDDnKfVBRNaq5MWeX8gJzCMJhEGQKq8FqiOlPZVBgzFecaRvh7SxNA==, tarball: file:projects/storage-file-share.tgz}
+    resolution: {integrity: sha512-qB4LXIfgV1eVwsap1IGabuIfLNn1k61Gjp5EnYUXHfAalH8CU+wKdjbdyzqnClgFwoaukIxu5CyQpOaFmljIdA==, tarball: file:projects/storage-file-share.tgz}
     name: '@rush-temp/storage-file-share'
     version: 0.0.0
     dependencies:
@@ -23646,7 +23634,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -23665,7 +23653,7 @@ packages:
     dev: false
 
   file:projects/storage-internal-avro.tgz:
-    resolution: {integrity: sha512-IxiPSZBWFNOFu/spFMWhJfWFPr0Hmv0ymxPvFxd2rzzErBq7FtCLXG50WN3lF4NKAnJz0Zq1g/PCmfDm1A7QrQ==, tarball: file:projects/storage-internal-avro.tgz}
+    resolution: {integrity: sha512-CparIYGX7emQDamAd2C/h5OPY1VxpY0OHxaRLw366AX6clUjMf8D7MlCJOKHQZOw1aACNoYnxTpUQjeq7QhEfQ==, tarball: file:projects/storage-internal-avro.tgz}
     name: '@rush-temp/storage-internal-avro'
     version: 0.0.0
     dependencies:
@@ -23690,7 +23678,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       source-map-support: 0.5.21
@@ -23708,7 +23696,7 @@ packages:
     dev: false
 
   file:projects/storage-queue.tgz:
-    resolution: {integrity: sha512-Txy9M+lXJ/ntq7ImyeULAdJs9l/aonvX+GMhlwiBmHj730vuU3XOJrNJ+0b4IX4PNPHiBsEFHwP7vTIUs09MzQ==, tarball: file:projects/storage-queue.tgz}
+    resolution: {integrity: sha512-dxLRpNWXhK7bbFTzc1pnGhg7E6v8R3ofcN/Ht74PhgGKmUQOVyfPeZQRFEuyHG34WroZsdVjM+cYGWndwJXfzg==, tarball: file:projects/storage-queue.tgz}
     name: '@rush-temp/storage-queue'
     version: 0.0.0
     dependencies:
@@ -23737,7 +23725,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       source-map-support: 0.5.21
@@ -23755,7 +23743,7 @@ packages:
     dev: false
 
   file:projects/synapse-access-control-1.tgz:
-    resolution: {integrity: sha512-wsawV3NYrXi5EvnkoUa5lW26x9ixfhWek/7GGy6cqjbLEoV9HKEwrW/PGTSa11nuflfUUJdnh/kE9/ZZnqhZFw==, tarball: file:projects/synapse-access-control-1.tgz}
+    resolution: {integrity: sha512-cCWLfbF+uDsUgdWXv93SB2MhH15I2/ShDjT9CGSvc4PWnCKnbSbimm5Ye/wyS3yf50+LtkGu+vj1dwUKvvYfvQ==, tarball: file:projects/synapse-access-control-1.tgz}
     name: '@rush-temp/synapse-access-control-1'
     version: 0.0.0
     dependencies:
@@ -23783,7 +23771,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -23801,7 +23789,7 @@ packages:
     dev: false
 
   file:projects/synapse-access-control.tgz:
-    resolution: {integrity: sha512-8vnpsFHik+27ge9j3KertZQ1W5W10SEpK5bQYQ5kUc+sj3XsIZMCkpMStwKqrIhJzd3yckQGlkLVOyigm0Udyw==, tarball: file:projects/synapse-access-control.tgz}
+    resolution: {integrity: sha512-pdBi2iMlEHa95nXR1/3P6uUKM4EobNghtQgn57bB87otPDUlPmR3e3rJsjuFHGtDHuzkSTEtHPWt03jihbNODQ==, tarball: file:projects/synapse-access-control.tgz}
     name: '@rush-temp/synapse-access-control'
     version: 0.0.0
     dependencies:
@@ -23833,7 +23821,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       source-map-support: 0.5.21
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -23850,7 +23838,7 @@ packages:
     dev: false
 
   file:projects/synapse-artifacts.tgz:
-    resolution: {integrity: sha512-1L9Y4NbZCbyR1JQvXEuiynGBkIPnq8/bQndWVRdWqpcZQtr8m/q3O9qNUp4f+MWc+EUQlA08pWKVtrQgrwsVSg==, tarball: file:projects/synapse-artifacts.tgz}
+    resolution: {integrity: sha512-h/tL57gvabLZ+BVzN2hmOO/OL3LD8g6MlgD0M+KnzQM7tLN1l1WYCtXuuJwKXH08Wk5XT7jGYwNsQqOTg8F/Yw==, tarball: file:projects/synapse-artifacts.tgz}
     name: '@rush-temp/synapse-artifacts'
     version: 0.0.0
     dependencies:
@@ -23883,7 +23871,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       sinon: 17.0.1
       source-map-support: 0.5.21
@@ -23901,7 +23889,7 @@ packages:
     dev: false
 
   file:projects/synapse-managed-private-endpoints.tgz:
-    resolution: {integrity: sha512-xI5pnusbNS3YF1Kt3Jqo2WfZ8/Zzn9bA5YheXdjSK1SlyzB4duH7sa+GqoYegd4sJiDO5RGk2FRIcrnc+LXiRA==, tarball: file:projects/synapse-managed-private-endpoints.tgz}
+    resolution: {integrity: sha512-KdbiF95zrYWJy4KkBwTAQTsOfmz/tmrJuXTD59lVv7Mr0mICBVs+kEsT2J5xgzwLfpIkJvVkzrHFNESwhcdUBw==, tarball: file:projects/synapse-managed-private-endpoints.tgz}
     name: '@rush-temp/synapse-managed-private-endpoints'
     version: 0.0.0
     dependencies:
@@ -23928,7 +23916,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -23981,7 +23969,7 @@ packages:
     dev: false
 
   file:projects/synapse-spark.tgz:
-    resolution: {integrity: sha512-rgCNFUjX6R35CqxPoZxj/3N3ffGSQ6/TSTJHxHTmLGDSzS7KFVUuK1Sztw/pRGhTTSEBAMa/DZjV7lkIQOMdwQ==, tarball: file:projects/synapse-spark.tgz}
+    resolution: {integrity: sha512-AmZI2iTWO/FR++Fx8rdvIeTiJ5+gNlHt4tC65ZvBNboR2pAe+tLskC9cg+AY8UGWwcTkALHA+3/Hz5Zh7/xyQQ==, tarball: file:projects/synapse-spark.tgz}
     name: '@rush-temp/synapse-spark'
     version: 0.0.0
     dependencies:
@@ -24008,7 +23996,7 @@ packages:
       karma-source-map-support: 1.4.0
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
       tslib: 2.6.3
@@ -24024,7 +24012,7 @@ packages:
     dev: false
 
   file:projects/template-dpg.tgz:
-    resolution: {integrity: sha512-SGarOplEG6BfERUuKVFLmU2ff8N0sE8EsMAsrSmSk18S7hbnTqMlV1adgXZHuSM0AdmoI3PhYxnetwzNv06ZoA==, tarball: file:projects/template-dpg.tgz}
+    resolution: {integrity: sha512-Ep3MrXiaZkXTvJtKy3iVFzdpVPMNkH85Vvj6G0pAOjNxFxAZEDGutU6NrmGcsHepkw0rgP6dYMrd/3iVuQ1NjA==, tarball: file:projects/template-dpg.tgz}
     name: '@rush-temp/template-dpg'
     version: 0.0.0
     dependencies:
@@ -24050,7 +24038,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       ts-node: 10.9.2(@types/node@18.19.34)(typescript@5.4.5)
@@ -24275,7 +24263,7 @@ packages:
     dev: false
 
   file:projects/web-pubsub-client-protobuf.tgz:
-    resolution: {integrity: sha512-78fsp+vmAxIE74iuFyRs0e7ryMjsgjK8DcivkyXZcH7WcvTCSpE+ufZ3g5y3wrjHxdfjUlytkmBYzBT8zlAafQ==, tarball: file:projects/web-pubsub-client-protobuf.tgz}
+    resolution: {integrity: sha512-sytXIr01Fp0rIY41TjPRpSOqlwPSvE4b7UyCfPKXnXp4D3+HiqE6CuWW2d4X0WyWDz5WyrWa9VzIWxQ7qH19iQ==, tarball: file:projects/web-pubsub-client-protobuf.tgz}
     name: '@rush-temp/web-pubsub-client-protobuf'
     version: 0.0.0
     dependencies:
@@ -24312,7 +24300,7 @@ packages:
       long: 5.2.3
       mocha: 10.4.0
       mock-socket: 9.3.1
-      nyc: 15.1.0
+      nyc: 17.0.0
       protobufjs: 7.3.0
       protobufjs-cli: 1.1.2(protobufjs@7.3.0)
       puppeteer: 22.10.1(typescript@5.4.5)
@@ -24334,7 +24322,7 @@ packages:
     dev: false
 
   file:projects/web-pubsub-client.tgz:
-    resolution: {integrity: sha512-m+IY0VupXTyW3MIox9verksiyHQ4IxqeiUML2XtKJ/kB+g4xhSE2Xrr42HnL3izL9FLVxJrodBQXy/jVvFfakQ==, tarball: file:projects/web-pubsub-client.tgz}
+    resolution: {integrity: sha512-uXUKu4iGArlMtZULYx2jiZ/lYA9mJS2g+g+iGZWvadXYKrzE4s5Sx79Xg4q4nczFfXwIquG413wNpbUb2Fs4BA==, tarball: file:projects/web-pubsub-client.tgz}
     name: '@rush-temp/web-pubsub-client'
     version: 0.0.0
     dependencies:
@@ -24368,7 +24356,7 @@ packages:
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
       mock-socket: 9.3.1
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
@@ -24425,7 +24413,7 @@ packages:
     dev: false
 
   file:projects/web-pubsub.tgz:
-    resolution: {integrity: sha512-swVtqxuR+FDz54JwOA4JSKFgsdum+CM+AmqBVg9d/yu5CNE0pdKDC86iMql1cV3jV+VYgIDn13ga/4F066soxw==, tarball: file:projects/web-pubsub.tgz}
+    resolution: {integrity: sha512-LO5K1kLFFCdvvvFZtS4hq7zFGZMjYxD9QmccbFQuuxiEZV3+jY3sHDKRXdTo1hHbIYMm74T6sVOHutnNaF1/TA==, tarball: file:projects/web-pubsub.tgz}
     name: '@rush-temp/web-pubsub'
     version: 0.0.0
     dependencies:
@@ -24453,7 +24441,7 @@ packages:
       karma-mocha-reporter: 2.2.5(karma@6.4.3)
       karma-sourcemap-loader: 0.3.8
       mocha: 10.4.0
-      nyc: 15.1.0
+      nyc: 17.0.0
       puppeteer: 22.10.1(typescript@5.4.5)
       rimraf: 5.0.7
       sinon: 17.0.1
