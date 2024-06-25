@@ -228,8 +228,8 @@ main().catch((err) => {
 We'll bring all the V1 features to V2 in the near future, but if you want to use V1 SDK, you can install the packages as below:
 
 ```bash
-npm install @azure-rest/map-search-v1@npm:@azure-rest/map-search@^1.0.0
-npm install @azure-rest/map-search-v2@npm:@azure-rest/map-search@^2.0.0
+npm install @azure-rest/maps-search-v1@npm:@azure-rest/maps-search@^1.0.0-beta.3
+npm install @azure-rest/maps-search-v2@npm:@azure-rest/maps-search@^2.0.0-beta.1
 ```
 
 Then, you can import the two packages:
